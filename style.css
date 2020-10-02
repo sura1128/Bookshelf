@@ -1,7 +1,9 @@
 body, html {
-    font-family: 'Jost', sans-serif;
     background-color: #FFF4EB;
     margin-bottom: 0px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    min-height:100%;
+    position:relative;
 }
 
 /* Portrait and Landscape */
@@ -14,6 +16,7 @@ body, html {
 }
 
 .header_bar {
+    font-family: 'Jost', sans-serif;
     background-color: #A95A16;
     margin-bottom: 0px;
     padding-bottom: 12px;
@@ -51,10 +54,11 @@ input {
     height: 55vh;
     background-color: #D9AB84;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 25px;
     font-size: 150%;
     border-radius: 20px;
     opacity: 0.8;
+    font-family: 'Jost', sans-serif;
 }
 
 .item:hover {
@@ -64,7 +68,6 @@ input {
 
 .logo {
     width: 150px;
-    /* height: 30vh; */
 }
 
 .attribution {
@@ -78,32 +81,47 @@ input {
 
 .desc {
     padding: 30px;
-    font-size: 17px;
+    font-size: 20px;
+    font-family: 'Goudy Bookletter 1911', serif;
 }
 
-/* footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #A95A16;
-    color: white;
+.footer_ctr {
     width: 100%;
-    height: 30vh;
-    bottom: 0;
-    text-align: center;
+    display: grid;
+    gap: 80px;
+    grid-template-columns: 1fr 1fr;
     padding-top: 50px;
-    padding-bottom: 50px;
-    margin-bottom: 0px;
-    margin-top: 50px;
-    font-size: 120%;
-    justify-items: center;
-    align-items: center;
-} */
+}
+
+.footer_item {
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
+}
 
 footer {
     background-color: #A95A16;
+    font-family: 'Jost', sans-serif;
     color: white;
     text-align: center;
     bottom: 0;
     width: 100%;
-    height: 15vh;  
+    height: 30vh;
+    /* position: absolute; */
+
+}
+
+.social {
+    width: 30px;
+    height: 30px;
+}
+
+.social_media {
+    padding: 20px;
+}
+
+.email {
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: 'Goudy Bookletter 1911', serif;
 }
