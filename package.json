@@ -1,0 +1,19 @@
+{
+  "name": "bookshelf",
+  "version": "1.0.0",
+  "description": "bookshelf is a web application to view, track and record information about someone's personal reading journey.",
+  "main": "script.js",
+  "scripts": {
+    "build": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sura1128/bookshelf.git"
+  },
+  "author": "Suranjana Sengupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sura1128/bookshelf/issues"
+  },
+  "homepage": "https://github.com/sura1128/bookshelf#readme"
+}
